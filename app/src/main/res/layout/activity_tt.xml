@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.nit.institute.TT">
+
+
+    <TextView
+        android:id="@+id/tMonday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:textSize="18sp"
+    />
+
+    <Spinner
+        android:id="@+id/sMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/inputoutline"/>
+
+    <TextView
+        android:id="@+id/tTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/sTues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/inputoutline"/>
+
+    <TextView
+        android:id="@+id/tWed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/sWed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/inputoutline"/>
+
+    <TextView
+        android:id="@+id/tThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/sThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/inputoutline"/>
+
+    <TextView
+        android:id="@+id/tFri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/sFri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inputoutline"/>
+
+    <Button
+        android:id="@+id/bSTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

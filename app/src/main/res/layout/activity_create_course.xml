@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.nit.institute.Course.CreateCourse">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Season"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+    <Spinner
+        android:id="@+id/sp1"
+        android:padding="10dp"
+        android:background="@drawable/inputoutline"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Branch"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+ />
+
+
+
+    <Spinner
+        android:id="@+id/sp2"
+        android:padding="10dp"
+        android:background="@drawable/inputoutline"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Semester"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/sp3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputoutline"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Subject"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        />
+
+    <Spinner
+        android:id="@+id/sp4"
+        android:background="@drawable/inputoutline"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/bImport"
+ />
+
+
+
+
+    <Button
+        android:id="@+id/bImport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bSubmit"
+        android:background="@color/colorPrimary"
+        android:text="Import"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:id="@+id/tFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Selected File"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/padding_large" />
+
+
+    <Button
+        android:id="@+id/bTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bSubmit"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputoutline"
+        android:text="Create Time Table"
+        android:textColor="#000" />
+
+</LinearLayout>
